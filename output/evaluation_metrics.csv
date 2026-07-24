@@ -1,0 +1,24 @@
+Metric,Value
+Total entities detected,187
+Unique replacements,94
+Detected ADDRESS,9
+Detected EMAIL,42
+Detected ORG,131
+Detected PHONE,5
+
+# Reviewed mapping metrics (from evaluation/mapping_review.csv with --missed-pii 12)
+Reviewed candidates,94
+True positives,86
+False positives,8
+True-positive occurrences,242
+False-positive occurrences,116
+Precision,0.9149
+Recall,0.8776
+F1 Score,0.8958
+Missed PII (used),12
+
+# Sampled negative evaluation (evaluation/ground_truth_negative.json)
+Accuracy (character-level),1.0000
+
+# Notes
+Note,Reviewed metrics computed with review_metrics; Accuracy computed via evaluation.evaluate on a small negative sample (5 paragraphs)
