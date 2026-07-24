@@ -1,0 +1,18 @@
+# Sensitive source documents and generated redaction data
+input/*.docx
+output/*
+!output/
+mapping.json
+evaluation/ground_truth.json
+evaluation/mapping_review.csv
+
+# Python artifacts and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local editor and environment files
+.vscode/
+.env

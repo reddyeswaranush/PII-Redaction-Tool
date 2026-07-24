@@ -1,0 +1,9 @@
+{
+  "documents": [
+    {
+      "id": "negative-sample-1",
+      "text": "(Please scan this QR Code to view this Red Herring Prospectus)\n\nRED HERRING PROSPECTUS\n\nDated December 10, 2025\n\nPlease read section 32 of the Companies Act, 2013\n\n100% Book Built Offer",
+      "entities": []
+    }
+  ]
+}

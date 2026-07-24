@@ -1,0 +1,20 @@
+{
+  "documents": [
+    {
+      "id": "example-1",
+      "text": "Contact Rashi Patil at rashi.patil@example.com.",
+      "entities": [
+        {
+          "start": 8,
+          "end": 19,
+          "entity_type": "PERSON"
+        },
+        {
+          "start": 23,
+          "end": 46,
+          "entity_type": "EMAIL"
+        }
+      ]
+    }
+  ]
+}
